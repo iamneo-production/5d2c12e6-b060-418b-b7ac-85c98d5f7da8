@@ -1,0 +1,63 @@
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .text-area-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-textarea {
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    resize: none;
+  }
+  
+  
+  .input-textarea:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  .input-textarea {
+  width: 300px;
+  height: 250px; /* Increased height */
+  padding: 10px;
+  border: 1px solid #ccc;
+  resize: both; /* Make the textarea resizable */
+  cursor: grab;
+  user-select: none;
+}
+
+.input-textarea.grabbing {
+  cursor: grabbing;
+}
+  
+  .input-textarea.grabbing {
+    cursor: grabbing;
+  }
+  .word-count {
+    color: #007bff;
+    margin-top: 5px;
+  }
+  
+  .calculate-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .calculate-button:hover {
+    background-color: #0056b3;
+  }
