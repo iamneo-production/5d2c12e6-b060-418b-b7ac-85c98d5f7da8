@@ -1,11 +1,22 @@
+/* TextInputScreen.css */
 .center-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #f5f5f5;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('https://tse3.mm.bing.net/th/id/OIP.92aJ-nc08r96ZiE_677a4QAAAA?pid=ImgDet&w=151&h=32.648648648648646&c=7&dpr=1.5'); /* Adjust the path to your image */
+  background-size: contain; /* Adjust the background size property */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: center; /* Center the background image */
+  background-color: #f5f5f5; /* Fallback background color if the image fails to load */
+}
+
+/* Rest of your existing styles */
+
+
+/* Rest of your existing styles */
+
   
   .text-area-container {
     display: flex;
