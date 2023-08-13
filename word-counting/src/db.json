@@ -1,0 +1,12 @@
+{
+    "words": [
+      {
+        "id": 1,
+        "text": "Lorem ipsum dolor sit amet"
+      },
+      {
+        "text": "hey",
+        "id": 2
+      }
+    ]
+}
